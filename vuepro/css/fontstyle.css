@@ -1,0 +1,61 @@
+h2{
+    color:darkgray;
+    font-size: 16px;
+}
+
+.class1{
+    font-size: 100px;
+    background-color: aquamarine;
+    width: 200px;
+
+}
+
+#header2{
+    font-size: 20px;
+    background-color: bisque;
+}
+
+*{
+    font-family: "KaiTi";
+}
+
+
+.selector > h1{
+    font-size: 60px;
+}
+
+/* id 选择 悬停特效*/
+#submit :hover{
+    color: rgb(0, 0, 0);
+}
+
+.block1{
+    
+    padding: 20px;
+
+
+    display: inline-block;
+    width: auto;
+
+    background-color: aqua;
+    border: 10px solid ;
+
+    margin: 20px;
+}
+
+.block1 > p{
+background-color: aliceblue;
+}
+
+.block1>h2{
+    font-size: 20px;
+    background-color: bisque;
+}
+
+.headerfirst{
+    font-size: 20px;
+    background-color: aqua;
+    width: 160px;
+}
+
+

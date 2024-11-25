@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes">
+    <title>xrh's application</title>
+    <link rel="stylesheet" href="./css/main.css">
+    
+</head>
+<body>
+    
+    <div class="pagehead">
+        <h1>支持上传图片和描述！</h1>
+        
+    </div>
+
+    <div>
+        <input type="file" id = "photo" class="upload">
+        <textarea name="text" id="text" rows="4" cols="10" style="font-size: 0.2rem; padding: 0.1rem; box-sizing: border-box; "placeholder = "请输入文本"></textarea>
+        <button class="upload" onclick="upload()">上传</button>
+    </div>
+
+    <div class="main">
+        <div class="unit">
+            <div>
+                <h6 class="username">这是用户名</h6>
+            </div>
+            
+            <img src="./src/IMG_2500.JPG" class = "imag">
+            <p>这是描述</p>
+            
+        </div>
+        <div class="unit">
+            <div>
+                <h6 class="username">这是用户名</h6>
+            </div>
+            
+            <img src="./src/IMG_2578.JPG" class = "imag">
+            <p>这是描述</p>
+        </div>
+        
+        <div class="unit">
+            <div>
+                <h6 class="username">这是用户名</h6>
+            </div>
+            
+            <img src="./src/IMG_2581.JPG" class = "imag">
+            <p>这是描述</p>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+
+    <script>
+        function resetsize(){
+            document.documentElement.style.fontSize = screen.width/10 +"px";
+        }
+        resetsize();
+    </script>
+    
+    <script src="./js/upload.js"></script>
+</body>
+</html>

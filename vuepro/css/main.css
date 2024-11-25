@@ -1,0 +1,24 @@
+.unit{
+    background-color: darkgray;
+    width: 4rem;
+    border: 0.2rem solid ;
+    border-color: rgb(192, 211, 210);
+    margin: 0.5rem;
+    font-size: 0.3rem;
+    display: inline-block;
+}
+
+
+.imag{
+    width:4rem;
+}
+
+h1{
+
+    font-size: 0.5rem;
+}
+
+.upload{
+    font-size: 0.2rem;
+}
+

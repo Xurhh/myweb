@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login of xrh's apllication </title>
+    <script src="https://unpkg.com/vue@3"></script>
+    <link rel="stylesheet" href="./css/fontstyle.css">
+    <script src="./js/demo.js"></script>
+</head>
+
+<body>
+    <div class="headerfirst">
+        <h1>
+            登录系统
+        </h1>
+    </div>
+    
+    <div class="selector">
+        <form action="#">
+            <label for="username">username</label>
+            <input type="text" placeholder="plz enter" id="username">
+            <br><br>
+            <label for="password">password</label>
+            <input type="password" placeholder="plz enter password" id="password">
+            <br><br>
+            
+
+            <button onclick="Login()">Login</button>
+
+        </form>
+
+
+        <h1>
+            choose! 如果没有注册将自动登录
+        </h1>
+    </div>
+
+
+
+
+    <div class = "block1">
+        <h2 id="header2">
+
+            yes man! <br>是的 长官！
+        </h2>
+
+
+        <p id = "block1_p1">
+            if u don't listen, I will ***!
+        </p>
+    </div>
+
+    <div class = "block1">
+        <h2>
+            it's glad to stay in the <br>
+            Y.M.C.A.
+        </h2>
+        <p>
+            man! what can I say
+        </p>
+
+    </div>
+
+
+   
+
+    <h3 class="class1">
+        yes man!
+    </h3>
+
+
+    <div id="app">
+        {{message}}
+    </div>
+
+    <script>
+        Vue.createApp({
+            data() {
+                return {
+                    message: 'hello world'
+                }
+            }
+        }).mount('#app')
+    </script>
+    
+</body>
+
+</html>
